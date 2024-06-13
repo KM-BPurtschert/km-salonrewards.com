@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'LondonNineteenSixty';
+    src: url('/fonts/chalet_londonnineteensixty.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'NewYorkNineteenSixty';
+    src: url('/fonts/chalet_newyorknineteensixty.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'ParisNineteenSixty';
+    src: url('/fonts/chalet_parisnineteensixty.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'LondonSixty';
+    src: url('/fonts/ChaletTT-LondonSixty.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Default font family */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.center-image {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.LondonNineteenSixty {
+    font-family: 'LondonNineteenSixty', sans-serif;
+    margin: 20px 0;
+}
+
+.NewYorkNineteenSixty {
+    font-family: 'NewYorkNineteenSixty', sans-serif;
+    margin: 20px 0;
+}
+
+.ParisNineteenSixty {
+    font-family: 'ParisNineteenSixty', sans-serif;
+    margin: 20px 0;
+}
+
+.LondonSixty {
+    font-family: 'LondonSixty', sans-serif;
+    margin: 20px 0;
+}
